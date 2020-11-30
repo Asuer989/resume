@@ -1,0 +1,228 @@
+    * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.root-img-md {
+    /* margin: 150px; */
+    padding: 100px;
+}
+
+.root-img {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    /* overflow: hidden; */
+    max-width: 600px;
+    max-height: 300px;
+    animation: run 15s infinite;
+    animation-delay: 1s;
+}
+
+.root-img>img {
+    width: 100%;
+    max-width: 600px;
+    max-height: 400px;
+}
+
+@keyframes run {
+    0% {
+        transform: translate(0%);
+    }
+    35% {
+        transform: translate(-150%);
+    }
+    60% {
+        transform: translate(-520%);
+    }
+    100% {
+        transform: translate(0%);
+    }
+}
+
+.title-button-position {
+    text-align: center;
+}
+
+.button {
+    /* background-color: black; */
+    /* text-align: start; */
+    display: inline-block;
+    /* color: silver; */
+    color: silver;
+    border: 3px solid rgb(170, 152, 152);
+    /* border: 3.5px solid rgb(179, 179, 179); */
+    font-size: 30px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    font-family: ;
+    /* scroll-behavior: smooth; */
+}
+
+.button:hover {
+    background-color: black;
+    /* background-color: silver; */
+    color: white;
+}
+
+.root-me {}
+
+.root-me-img {
+    display: flex;
+    align-items: center;
+    max-width: 150px;
+    max-height: 150px;
+    position: absolute;
+    top: 650px;
+    left: 200px;
+    justify-content: start;
+    overflow: hidden;
+}
+
+
+/* .container {
+    position: absolute;
+    width: 50%;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #8d8d8d;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: .3s ease;
+}
+
+.container:hover .overlay {
+    transform: scale(1);
+}
+
+.text {
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+} */
+
+.root-me-img>img {
+    width: 100%;
+}
+
+.second-button {
+    display: inline-block;
+    color: silver;
+    border: 3px solid rgb(170, 152, 152);
+    font-size: 30px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    font-family: ;
+    position: absolute;
+    top: 550px;
+    left: 200px;
+}
+
+.second-button:hover {
+    background-color: black;
+    color: white;
+}
+
+.introduce {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    position: absolute;
+    top: 580px;
+    left: 800px;
+    font-size: 30px;
+    font-family: 標楷體;
+}
+
+.introduce-title {
+    /* position: absolute;
+    top: 580px;
+    left: 800px;
+} */
+    .introduce-body {
+        /* position: absolute;
+    top: 580px;
+    left: 800px; */
+    }
+    .third-button {
+        display: inline-block;
+        color: silver;
+        border: 3px solid rgb(170, 152, 152);
+        font-size: 30px;
+        border-radius: 12px;
+        transition-duration: 0.4s;
+        font-family: ;
+        position: absolute;
+        top: 950px;
+        left: 200px;
+    }
+    .third-button:hover {
+        background-color: black;
+        color: white;
+    }
+    .root-edu {
+        padding: 450px;
+    }
+    .root-edu-img {
+        /* display: flex; */
+        align-items: center;
+        justify-content: start;
+        max-width: 150px;
+        max-height: 150px;
+    }
+    .root-edu-img>img {
+        width: 100%;
+    }
+    .fourth-button {
+        display: inline-block;
+        color: silver;
+        border: 3px solid rgb(170, 152, 152);
+        font-size: 30px;
+        border-radius: 12px;
+        transition-duration: 0.4s;
+        font-family: ;
+        position: absolute;
+        top: 1250px;
+        left: 200px;
+    }
+    .fourth-button:hover {
+        background-color: black;
+        color: white;
+    }
+    .root-pro {}
+    .root-pro-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* overflow: hidden; */
+        max-width: 450px;
+        max-height: 150px;
+        width: 450px;
+        height: 150px;
+        position: absolute;
+        top: 1350px;
+        left: 600px;
+    }
+    .root-pro-img>img {
+        width: 100%;
+    }
+    .root-pro-body {}
